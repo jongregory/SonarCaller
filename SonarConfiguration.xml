@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SonarConfig>
+	<CodeBuildDirectory>C:\SonarAnalysisWorking</CodeBuildDirectory>
+	<PropertiesFileName>sonar-project</PropertiesFileName>
+	<PropertiesFilePostFix>.properties</PropertiesFilePostFix>
+	<Projects>
+		<Project>
+			<Name>Apetito Frozen (WFF)</Name>
+			<Folder>apetito_web-platform_ap001\WFF\website</Folder>
+            <Repository>git@bitbucket.org:mmtdigital/apetito_web-platform_ap001.git</Repository>
+      		<Branch>dev</Branch>
+		</Project>
+		<Project>
+			<Name>Dot Net Core Library</Name>
+			<Folder>mmtdigital_dotnet-core</Folder>
+            <Repository>git@bitbucket.org:mmtdigital/mmtdigital_dotnet-core.git</Repository>
+			<Branch>master</Branch>
+		</Project>
+		<Project>
+			<Name>Allergen AC002</Name>
+			<Folder>allergan_web-platform_ac002</Folder>
+            <Repository>git@bitbucket.org:mmtdigital/allergan_web-platform_ac002.git</Repository>
+			<Branch>master</Branch>
+		</Project>
+   </Projects>
+</SonarConfig>
+
+
